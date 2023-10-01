@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Phantom Thieves</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&family=Ubuntu:wght@300;400;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/estilo.css">
+  <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img class="logo" src="src/imagens/Persona_5_logo.svg.png" alt="logo persona">
+  </header>
+
+  <main class="selecao-de-personagens">
+    <section class="personagens">
+
+      <h1 class="titulo">Selecione seu phantom thieve</h1>
+
+      <ul class="lista-de-personagens">
+
+        <li class="personagem selecionado" id="joker" data-name="Joker"
+          data-description="Ren Amamiya, um garoto que foi culpado por um crime que não cometeu e após isso obrigado a se mudar e estudar na Shujin Academy, onde acidentalmente conhece o metaverso. Ele então acaba se tornando líder dos Phantom Thieves que buscam remover intenções malévolas do coração das pessoas através do Metaverso.">
+          <img src="src/imagens/Card-Joker.jpg" alt="Personagem joker">
+        </li>
+        <li class="personagem" id="skull" data-name="Skull"
+          data-description="Ryuji Sakamoto é o primeiro companheiro de Ren ao chegar em Tokyo. Hashino descreve Ryuji como desafiador, mas um cara legal. Ofendido pelos menores comentários dos outros, às vezes pode recorrer à violência. Ele mora com a mãe pois foram abandonados pelo pai abusivo e alcoólatra.">
+          <img src="src/imagens/Card-Skull.jpg" alt="Personagem skull">
+        </li>
+        <li class="personagem" id="mona" data-name="Mona"
+          data-description="Morgana é uma criatura amnésica e misteriosa parecida com um gato que encontra Ren e Ryuji depois que eles o libertam de sua cela no Palácio de Kamoshida. Querendo descobrir suas origens e restaurar sua verdadeira forma, ele se junta a Ren em seus assaltos, ensinando a ele e a seus aliados a mecânica do metaverso e os princípios de ser um Phantom Thieve.">
+          <img src="src/imagens/Card-Mona.jpg" alt="Personagem mona">
+        </li>
+        <li class="personagem" id="panther" data-name="Panther"
+          data-description="Ann Takamaki é uma garota 1/4 americana da classe de Ren que recentemente retornou ao Japão. Ela fala inglês fluentemente e é modelo. Apesar de sua popularidade e aparência única, Ann é evitada pelas garotas de sua classe por causa de seu suposto relacionamento com o professor de educação física Kamoshida. Hashino descreve Ann como a alma da festa, que terá um impacto no destino dos personagens principais.">
+          <img src="src/imagens/Card-Panther.jpg" alt="Personagem panther">
+        </li>
+        <li class="personagem" id="fox" data-name="Fox"
+          data-description="Yusuke Kitakawa é um estudante de artes plásticas. Um jovem sereno, elegante e observador, ele tem paixão pela arte e se preocupa com a estética de seu ambiente. Yusuke foi protegido ao longo de sua vida e é excêntrico com outras pessoas. Por ser pobre, muitas vezes pula refeições para economizar dinheiro para materiais de arte, comendo vorazmente quando tem chance.">
+          <img src="src/imagens/Card-Fox.jpg" alt="Personagem fox">
+        </li>
+        <li class="personagem" id="queen" data-name="Queen"
+          data-description="Makoto Nijima é a presidente do conselho estudantil da Shujin Academy. Analítica, ela pode tirar conclusões, teorizar em diversas situações e fazer planos elaborados para ter sucesso, por esses motivos é considerada o cérebro dos Phantom Thieves. Por trás desse exterior, ela tem um complexo de inferioridade e costuma elogiar sua irmã Sae Niijima.">
+          <img src="src/imagens/Card-Queen.jpg" alt="Personagem queen">
+        </li>
+        <li class="personagem" id="oracle" data-name="Oracle"
+          data-description="Futaba é uma hacker genial, ela é reclusa no início com os que estão a sua volta devido a múltiplas experiências traumáticas que agravaram a sua ansiedade social. Mesmo depois de se juntar aos Phantom Thieves, ela tem medo de grandes multidões. Ela também é a navegadora dos Phantom Thieves, guiando eles durante as explorações e os combates e ajudando nas decições do grupo.">
+          <img src="src/imagens/Card-Oracle.jpg" alt="Personagem oracle">
+        </li>
+        <li class="personagem" id="noir" data-name="Noir"
+          data-description="Haru é a herdeira da Okumura Foods. Quando os Phantom Thieves a encontram pela primeira vez no Metaverse, ela está usando o apelido Beauty Thief e é aliada de Morgana (que deixou temporariamente os Phantom Thieves). Ela se torna uma Phantom Thieve para escapar de um casamento arranjado por seu pai, Kunikazu Okumura, percebendo que seu pai a vê como uma ferramenta para promover seus negócios e ambições políticas.">
+          <img src="src/imagens/Card-Noir.jpg" alt="Personagem noir">
+        </li>
+        <li class="personagem" id="crow" data-name="Crow"
+          data-description="Goro Akechi é um detetive adolescente popular que recebeu o título de 'A Segunda Vinda do Príncipe Detetive' pela mídia. Seus talentos foram amplamente elogiados e ele se opõe abertamente aos Phantom Thieves. Após diversos acontecimentos (incluindo sua união temporária aos Phantom Thieves e sua tentativa de derrubar os mesmos), ele se une aos Phantom Thieves definitivamente.  ">
+          <img src="src/imagens/Card-Crow.jpg" alt="Personagem crow">
+        </li>
+        <li class="personagem" id="violet" data-name="Violet"
+          data-description="Kasumi Yoshizawa é uma aluna do primeiro ano e ginasta rítmica que se transfere para a Academia Shujin na mesma época que Ren. Embora ela tenha um bom relacionamento com Ren e seus amigos, sua opinião sobre os Phantom Thieves é negativa, dizendo que suas ações podem levar as pessoas a confiar fortemente neles em vez de fazer seus próprios esforços para resolver seus problemas. Apesar disso, ela mais tarde se junta a eles quando um novo palácio surge.">
+          <img src="src/imagens/Card-Violet.jpg" alt="Personagem violet">
+        </li>
+      </ul>
+    </section>
+    <section class="personagem-selecionado">
+      <img class="personagem-grande" src="src/imagens/Card-joker.png" alt="Personagem selecionado">
+
+      <div class="informacoes-personagem">
+        <h2 class="nome-personagem" id="nome-personagem">Joker</h2>
+        <p class="descricao-personagem" id="descricao-personagem">Ren Amamiya, um garoto que foi culpado por um crime
+          que não cometeu e após isso obrigado a se mudar e estudar na Shujin Academy, onde acidentalmente conhece o
+          metaverse, ele então acaba se tornando líder dos Phantom Thieves que buscam remover intenções malévolas do
+          coração das pessoas através do Metaverso.</p>
+
+      </div>
+    </section>
+  </main>
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>
